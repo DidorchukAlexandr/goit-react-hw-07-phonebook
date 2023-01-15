@@ -12,12 +12,7 @@ export default function FilterContacts() {
   return (
     <Label>
       Find contacts by name:
-      <InputFilter
-        className="filter__input"
-        type="text"
-        value={filter}
-        onChange={changeFilter}
-      />
+      <InputFilter type="text" value={filter} onChange={changeFilter} />
     </Label>
   );
 }
